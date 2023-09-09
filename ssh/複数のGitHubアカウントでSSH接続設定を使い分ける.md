@@ -11,6 +11,8 @@ GitHubに複数のアカウントを持っている場合、異なるアカウ�
 ```
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
+または
+```ssh-keygen -t rsa -C {Githubメールアドレス} -f {作成する鍵の名前}```
 
 -t ed25519: Ed25519アルゴリズムを使用してSSHキーを生成します。より安全です。
 -C "your-email@example.com": 任意のメールアドレスを指定します。
